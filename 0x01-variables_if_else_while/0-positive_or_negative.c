@@ -9,7 +9,7 @@
  *
  * Return: 0 if success
  */
-int man(void)
+int main(void)
 {
 	int n;
 
