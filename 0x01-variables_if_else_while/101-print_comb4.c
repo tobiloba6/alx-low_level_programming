@@ -6,22 +6,25 @@
  */
 int main(void)
 {
-	int i, p, m;
+	int i, x, z;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (m = 2; m <= 9; m++)
+		for (x = 1; x <= 9; x++)
 		{
-			if (m > p && p > i)
+		for (z = 2; z <= 9; z++)
+		{
+			if (z > x && x > i)
 			{
 				putchar(i + '0');
-				putchar(p + '0');
-				putchar(m + '0');
+				putchar(x + '0');
+				putchar(z + '0');
 
 				if (i != 7)
 				{
 					putchar(',');
 					putchar(' ');
+				}
 				}
 			}
 		}

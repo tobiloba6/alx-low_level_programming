@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int i, p;
+	int i, n;
 
 	for (i = 0; i < 100; i++)
 	{
-		for (p = 0; p < 100; j++)
+		for (n = 0; n < 100; n++)
 		{
-			if (p > i)
+			if (n > i)
 			{
 				putchar((i / 10) + '0');
 				putchar((i % 10) + '0');
 				putchar(' ');
-				putchar((p / 10) + '0');
-				putchar((p % 10) + '0');
+				putchar((n / 10) + '0');
+				putchar((n % 10) + '0');
 
 				if (i != 98)
 				{
