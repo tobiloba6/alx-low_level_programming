@@ -1,4 +1,4 @@
-#incliude "main.h"
+#include "main.h"
 /**
  * jack_bauer - prints minutes of the day from 0:00 to 23:59
  * h = hour, m = minutes
