@@ -4,7 +4,7 @@
  *
  * Return: Always sucess
  */
-int _abs(int)
+int _abs(int r)
 {
 
 	int r;
