@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <math.h>
 
@@ -34,7 +33,7 @@ int main(void)
 	if (n > 2)
 		max = n;
 
-	printf("%d\n", max);
+	printf("%1d\n", max);
 
 	return (0);
 }
