@@ -2,17 +2,15 @@
 #include <stdio.h>
 
 /**
- * int _strlen - returns the lenght of a string
+ * _strlen - returns the lenght of a string
  * @s: string
- * @len: lenght of string
  * Return: lenght as int
  */
 
 int _strlen(char *s)
 {
-	int len;
-
 	for 
-		(len = 0; *(s + len) != '\0'; ++len);
+	(len = 0; *(s + len) != '\0'; ++len);
+
 	return (len);
 }
