@@ -6,6 +6,8 @@
  * the remainder of the destination is filled with null bytes
  * @dest: buffer receiving copied string
  * @src: string that's being copied
+ * @n: max no of bytes copied
+ * Return: returns
  */
 
 char *_strncpy(char *dest, char *src, int n)

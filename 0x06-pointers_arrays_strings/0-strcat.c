@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @src: string to append to dest
- * @dest: string to be appended to
+ *_strcat - concatenates two strings
+ *@src: string to append to dest
+ *@dest: string to be appended to
  *
  * Return: returns to @dest
  */
